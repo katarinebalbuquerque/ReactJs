@@ -6,7 +6,7 @@
 
 * Permite incluir novas tarefas na lista.
 
-*Cada item pode ser modificado ao clicar no ícone de edição.
+* Cada item pode ser modificado ao clicar no ícone de edição.
 
 * Remove tarefas individuais com o ícone de lixeira.
 
