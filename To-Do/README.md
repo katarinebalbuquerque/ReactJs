@@ -1,7 +1,5 @@
 # To-Do
 
-<img src="image.png" width="310"/><br/>
-
 ### I. Sobre o projeto
 
 * Adiciona tarefas — Permite incluir novas tarefas na lista.
