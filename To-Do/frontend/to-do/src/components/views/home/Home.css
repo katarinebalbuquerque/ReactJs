@@ -1,0 +1,27 @@
+#tarefas {
+    width: 100%;
+    height: auto;
+}
+
+#tarefas table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#tarefas table tr td img {
+    width: 32px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+#tarefas table tr {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+#tarefas table tr td {    
+    font-size: 1.1rem;
+}
