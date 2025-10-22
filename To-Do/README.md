@@ -12,6 +12,18 @@
 
 * Exibe lista organizada — Mostra todas as tarefas cadastradas de forma simples e visual.
 
+### II. Pré-visualização
+
+<img src="Gif_To-Do.gif" width="320"/><br/>
+
+### III. Iniciar projeto
+
+**/To-Do/backend >** 
+npm start
+
+**/To-Do/frontend/to-do/ >**
+npm run dev
+
 ### IV. Contatos
 
 * E-mail: [kba.2879@gmail.com](mailTo:kba.2879@gmail.com)
