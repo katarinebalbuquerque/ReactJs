@@ -10,7 +10,7 @@
 
 * Foco em adaptar o design para diferentes dispositivos e garantir rapidez no carregamento.
 
-### IV. Contatos
+### II. Contatos
 
 * E-mail: [kba.2879@gmail.com](mailTo:kba.2879@gmail.com)
 
