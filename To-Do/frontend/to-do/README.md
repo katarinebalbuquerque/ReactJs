@@ -4,13 +4,13 @@
 
 ### I. Sobre o projeto
 
-* Adiciona tarefas — Permite incluir novas tarefas na lista.
+* Permite incluir novas tarefas na lista.
 
-* Edita tarefas — Cada item pode ser modificado ao clicar no ícone de edição.
+*Cada item pode ser modificado ao clicar no ícone de edição.
 
-* Exclui tarefas — Remove tarefas individuais com o ícone de lixeira.
+* Remove tarefas individuais com o ícone de lixeira.
 
-* Exibe lista organizada — Mostra todas as tarefas cadastradas de forma simples e visual.
+* Mostra todas as tarefas cadastradas de forma simples e visual.
 
 ### IV. Contatos
 
