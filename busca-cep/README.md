@@ -16,6 +16,15 @@
 
 <img src="BuscaCep.gif" width="310"/><br/>
 
+### III. Configurar projeto
+
+**/busca-cep >**
+npm install
+
+**/busca-cep >**
+npm run dev
+
+
 ### IV. Contatos
 
 * E-mail: [kba.2879@gmail.com](mailTo:kba.2879@gmail.com)
