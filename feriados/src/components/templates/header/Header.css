@@ -1,0 +1,20 @@
+.header {
+    width: Calc(100% - 80px);
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.header img {
+    height: 50px;   
+}
+
+@media(max-width: 720px) {
+    .header {
+        width: Calc(100% - 20px);
+        padding: 10px 10px;    
+    }
+}

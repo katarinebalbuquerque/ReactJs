@@ -1,0 +1,70 @@
+.content {
+    width: Calc(100%-80px);
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.content h3 {
+    color: #FFF;
+    background-color: #FF0066;
+    text-align: center;
+}
+
+.content table {
+    width: 100%;
+}
+
+.content table th {
+    font-size: 1.2rem;
+    text-align: left;
+    border-bottom: 2px solid #FF0066;
+}
+
+.content table tr {
+    font-size: 1.1rem;    
+}
+
+.content table td {
+    border-bottom: 1px solid #d8d2d2;
+}
+
+.content .buscar {
+    margin: 10px 0;
+}
+
+.content .buscar input {
+    border: 1px solid #5555FF;
+    margin-right: 10px;
+}
+
+.content .buscar input,
+.content .buscar input::placeholder {
+    color: #000;
+    font-size: 1rem;
+}
+
+.content .buscar input:focus,
+.content .buscar button:focus {
+    outline: 0;
+    border: 1px solid #5555FF;
+}
+
+.content .buscar button {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #5555FF;
+    border: 1px solid #5555FF;
+    cursor: pointer;
+}
+
+@media(max-width: 720px) {
+    .content {
+        width: Calc(100% - 20px);
+        padding: 10px 10px;    
+    }
+
+    .content table tr {
+        font-size: 1rem;        
+    }
+}

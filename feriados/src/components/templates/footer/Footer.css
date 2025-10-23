@@ -1,0 +1,20 @@
+.footer {
+    width: Calc(100% - 80px);
+    margin: 10px auto;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px 40px;    
+}
+
+.footer h4 {
+    color: #FFF;
+    padding: 8px;
+    background-color:#5555FF;
+}
+
+@media(max-width: 720px) {
+    .footer {
+        width: Calc(100% - 20px);
+        padding: 10px 10px;    
+    }
+}
