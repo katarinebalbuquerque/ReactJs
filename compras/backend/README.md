@@ -5,7 +5,7 @@
 #### Instalar todas as dependências desse projeto:
 npm install
 
-### II. Sobre Dependências
+### II. Sobre as Dependências
 
 #### Para criar e gerenciar servidores e rotas HTTP.
 npm install --save express
