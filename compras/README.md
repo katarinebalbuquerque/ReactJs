@@ -1,6 +1,6 @@
 # Organizar Compras
 
-<img width="300" src="./07.img.png" alt="Banner"/>
+<img width="100%" src="./07.img.png" alt="Banner"/>
 
 ### Contatos
 
