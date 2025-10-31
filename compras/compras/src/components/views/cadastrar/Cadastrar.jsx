@@ -56,13 +56,13 @@ const Cadastrar = () => {
                     <input required type="file" name="image" onChange={(e) => setImagem(e.target.files[0])} /><br /><br />
 
                     <label htmlFor="nome">Nome</label><br />
-                    <input required type="text" name="nome" placeholder="Nome do produto" onChange={(e) => setNome(e.target.value)} /><br /><br />
+                    <input required type="text" name="nome" autoComplete="off" placeholder="Nome do produto" onChange={(e) => setNome(e.target.value)} /><br /><br />
 
                     <label htmlFor="quantidade">Quantidade</label><br />
-                    <input required type="number" name="quantidade" placeholder="0" onChange={(e) => setQuantidade(e.target.value)} /><br /><br />
+                    <input required type="number" name="quantidade" autoComplete="off" placeholder="0" onChange={(e) => setQuantidade(e.target.value)} /><br /><br />
 
                     <label htmlFor="preco">Preço</label><br />
-                    <input required type="text" name="preco" placeholder="0.00" onChange={(e) => setPreco(e.target.value)} /><br /><br />
+                    <input required type="text" name="preco" autoComplete="off" placeholder="0.00" onChange={(e) => setPreco(e.target.value)} /><br /><br />
 
                     <button type="button" onClick={() => navigate('/')}>Cancelar</button>
                     <button type="submit">Salvar</button>

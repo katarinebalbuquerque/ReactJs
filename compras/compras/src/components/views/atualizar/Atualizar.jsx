@@ -77,13 +77,13 @@ const Atualizar = () => {
                     <input required type="file" name="image" onChange={(e) => setImagem(e.target.files[0])} /><br /><br />
 
                     <label htmlFor="nome">Nome</label><br />
-                    <input required type="text" name="nome" defaultValue={data.nome} onChange={(e) => setNome(e.target.value)} /><br /><br />
+                    <input required type="text" name="nome" autoComplete="off" defaultValue={data.nome} onChange={(e) => setNome(e.target.value)} /><br /><br />
 
                     <label htmlFor="quantidade">Quantidade</label><br />
-                    <input required type="number" name="quantidade" defaultValue={data.quantidade} onChange={(e) => setQuantidade(e.target.value)} /><br /><br />
+                    <input required type="number" name="quantidade" autoComplete="off" defaultValue={data.quantidade} onChange={(e) => setQuantidade(e.target.value)} /><br /><br />
 
                     <label htmlFor="preco">Preço</label><br />
-                    <input required type="text" name="preco" defaultValue={data.preco} onChange={(e) => setPreco(e.target.value)} /><br /><br />
+                    <input required type="text" name="preco" autoComplete="off" defaultValue={data.preco} onChange={(e) => setPreco(e.target.value)} /><br /><br />
 
                     <button onClick={() => navigate(`/detalhes/${id}`)} type="submit">Cancelar</button>
                     <button type="submit">Atualizar</button>
