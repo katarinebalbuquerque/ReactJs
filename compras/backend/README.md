@@ -29,7 +29,7 @@ npx nodemon index
 mercado
 
 #### Tabela de Banco de Dados
-Produtos
+produtos
 
 #### Colunas do Bando de Dados
 nome, quantidade, preco, imagem
