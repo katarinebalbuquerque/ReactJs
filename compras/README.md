@@ -4,7 +4,7 @@
 
 ### Pré-visualização do projeto
 
-<img width="320" src="./compras.gif" alt="Banner"/>
+<img width="auto" src="./compras.gif" alt="Banner"/>
 
 ### Contatos
 
