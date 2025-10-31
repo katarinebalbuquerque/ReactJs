@@ -1,7 +1,5 @@
 # Organizar Compras
 
-<img width="100%" src="./07.img.png" alt="Banner"/>
-
 ### Pré-visualização do projeto
 
 <img width="auto" src="./compras.gif" alt="Banner"/>
