@@ -5,6 +5,7 @@ import { apiURL } from './../../api/Api';
 import axios from 'axios';
 import { Link, useNavigate } from "react-router-dom";
 import Banner from './../../../assets/banner.jpg';
+import Button from "../../templates/button/Button";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -40,8 +41,8 @@ const Home = () => {
         <div className="linha"></div>
         <br />
 
-        <button onClick={() => navigate('/cadastrar')}>Novo Produto</button>
-
+        <Button text="Novo Produto" type="button" action={() => navigate('/cadastrar')}/>
+        
         <table border="1" cellPadding="8" cellSpacing="0" style={{ marginTop: '20px' }}>
           <thead>
             <tr>
@@ -64,7 +65,7 @@ const Home = () => {
                     {produto.imagem ? (
                       <img height="35" src={`${apiURL}/upload/products/${produto.imagem}`} alt={produto.nome} />
                     ) : (
-                      <span>Sem imagem</span>
+                      <p>Sem imagem</p>
                     )}
                   </td>                  
                 </tr>

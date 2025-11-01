@@ -5,6 +5,8 @@ import Header from "../../templates/header/Header";
 import { apiURL } from './../../api/Api';
 import axios from 'axios';
 import Banner from './../../../assets/banner.jpg';
+import Button from "../../templates/button/Button";
+import Input from "../../templates/input/Input";
 
 const Atualizar = () => {
     const [data, setData] = useState({
@@ -72,21 +74,18 @@ const Atualizar = () => {
                 <h2>Atualizar Produto</h2>
                 <div className="linha"></div>
                 <br />
-                <form onSubmit={atualizarData}>
-                    <label htmlFor="image">Imagem</label><br />
-                    <input required type="file" name="image" onChange={(e) => setImagem(e.target.files[0])} /><br /><br />
+                <form onSubmit={atualizarData}>                    
 
-                    <label htmlFor="nome">Nome</label><br />
-                    <input required type="text" name="nome" autoComplete="off" defaultValue={data.nome} onChange={(e) => setNome(e.target.value)} /><br /><br />
+                    <Input text="Imagem" htmlFor="image" type="file" name="image" onChange={(e) => setImagem(e.target.files[0])}/><br /><br />
 
-                    <label htmlFor="quantidade">Quantidade</label><br />
-                    <input required type="number" name="quantidade" autoComplete="off" defaultValue={data.quantidade} onChange={(e) => setQuantidade(e.target.value)} /><br /><br />
+                    <Input text="Nome" htmlFor="nome" type="text" name="nome" defaultValue={data.nome} placeholder="Nome do produto" onChange={(e) => setNome(e.target.value)}/><br /><br />    
+                   
+                    <Input text="Quantidade" htmlFor="quantidade" type="text" name="quantidade" defaultValue={data.quantidade} placeholder="0" onChange={(e) => setQuantidade(e.target.value)}/><br /><br />
 
-                    <label htmlFor="preco">Preço</label><br />
-                    <input required type="text" name="preco" autoComplete="off" defaultValue={data.preco} onChange={(e) => setPreco(e.target.value)} /><br /><br />
+                    <Input text="Preço" htmlFor="preco" type="text" name="preco" defaultValue={data.preco} placeholder="0.00" onChange={(e) => setPreco(e.target.value)}/><br /><br />
 
-                    <button onClick={() => navigate(`/detalhes/${id}`)} type="submit">Cancelar</button>
-                    <button type="submit">Atualizar</button>
+                    <Button text="Cancelar" type="button" action={()=>navigate(`/detalhes/${id}`)}/>
+                    <Button text="Atualizar" type="submit"/>                    
                 </form>
                 {mensagem && <p>{mensagem}</p>}
                 <br />

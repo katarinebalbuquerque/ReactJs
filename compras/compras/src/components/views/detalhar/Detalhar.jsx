@@ -4,6 +4,7 @@ import Header from "../../templates/header/Header";
 import { apiURL } from './../../api/Api';
 import axios from 'axios';
 import { useNavigate, useParams } from "react-router-dom";
+import Button from "../../templates/button/Button";
 
 const Detalhar = () => {
   const [data, setData] = useState({
@@ -67,9 +68,9 @@ const Detalhar = () => {
             </tbody>
           </table>
           <br />
-          <button type="button" onClick={() => navigate('/')}>Voltar</button>
-          <button type="button" onClick={() => navigate(`/atualizar/${id}`)}>Atualizar</button>
-          <button type="button" onClick={() => navigate(`/excluir/${id}`)}>Excluir</button>
+          <Button text="Voltar" type="button" action={() => navigate('/')}/>
+          <Button text="Atualizar" type="button" action={() => navigate(`/atualizar/${id}`)}/>
+          <Button text="Excluir" type="button" action={() => navigate(`/excluir/${id}`)}/>          
         </form>
 
         {mensagem && <p>{mensagem}</p>}

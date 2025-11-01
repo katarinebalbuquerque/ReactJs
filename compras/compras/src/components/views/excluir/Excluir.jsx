@@ -4,6 +4,7 @@ import Footer from "../../templates/footer/Footer";
 import { useNavigate, useParams } from "react-router-dom";
 import { apiURL } from './../../api/Api';
 import axios from 'axios';
+import Button from "../../templates/button/Button";
 
 const Excluir = () => {
 
@@ -77,8 +78,8 @@ const Excluir = () => {
                     <br />
                     <h4>Deseja excluir esse produto?</h4><br /><br />
 
-                    <button type="button" onClick={() => navigate(`/detalhes/${id}`)}>Cancelar</button>
-                    <button type="submit" id="btn-excluir">Excluir</button>
+                    <Button text="Cancelar" type="button" action={() => navigate(`/detalhes/${id}`)}/>
+                    <Button text="Excluir" type="submit" id="btn-excluir"/>                    
                 </form>
 
                 {mensagem && <p>{mensagem}</p>}
